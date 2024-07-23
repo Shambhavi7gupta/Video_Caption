@@ -46,7 +46,7 @@ function VideoPlayer() {
   return (
     <div className="App">
       <h1>Video Captions</h1>
-      <div>
+      <div style={{ marginBottom: "20px" }}>
         <input
           type="text"
           placeholder="Enter video URL"
@@ -63,7 +63,7 @@ function VideoPlayer() {
         height="400px"
       />
       <div ref={captionRef} className="caption"></div> {/* Caption display */}
-      <div>
+      <div className="caption-title">
         <input
           type="text"
           placeholder="Enter caption text"
